@@ -18,14 +18,17 @@ Python 3.9
 ## How to use
 
 ### Data preprocessing
-* Run the correspondint code in file 'DataPreprocess' to preprocess the dataset:
+* Run the corresponding code in file 'DataPreprocess' to preprocess the dataset:
 
- ```
-nykpredapro.txt
-```
+1. NYC
+Rename "dataset_TSMC2014_NYC.txt" by "dataset_TSMC2014_NYC.xlsx"
+
+2.
 ```
 shanghaipredapro.py
 ```
+Then you will
+
 ```
 Beijingpredapro.py
 ```
