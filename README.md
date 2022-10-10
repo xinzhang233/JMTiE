@@ -18,20 +18,22 @@ Python 3.9
 ## How to use
 
 ### Data preprocessing
-* Run the corresponding code in file 'DataPreprocess' to preprocess the dataset:
 
-1. NYC
-Rename "dataset_TSMC2014_NYC.txt" by "dataset_TSMC2014_NYC.xlsx"
+* For NYK database, rename "dataset_TSMC2014_NYC.txt" by "dataset_TSMC2014_NYC.xlsx" and stored it in file 'DataPreprocess'.
 
-2.
-```
-shanghaipredapro.py
-```
-Then you will
+* For Shanghai database, run the following code in file 'DataPreprocess' to preprocess the dataset:
 
-```
-Beijingpredapro.py
-```
+ ```
+ shanghaipredapro.py
+ ```
+ Then you will get a file named 'shanghai.feather'.
+ 
+* For Beijing database, run the following code in file 'DataPreprocess' to preprocess the dataset:
+
+ ```
+ Beijingpredapro.py
+ ```
+ Then you will get a file named ''beijing.feather''.
 
 ### Partition data space and secure knn search
 
